@@ -1,0 +1,8 @@
+[project]
+name = "dota-reef"
+version = "0.0.1"
+dependencies = [ "vpk == 1.4.0" ]
+[project.scripts]
+dota-reef = "dota_reef:main"
+[tool.setuptools.packages]
+find = {}
